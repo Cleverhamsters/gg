@@ -1,0 +1,97 @@
+body{margin: 0; padding: 0 ;
+font: 16px/24px Arial, Tahoma, sans-serif; color: #808080;}
+a{text-decoration: none; width: 100%;}
+i {color:#ffffff;}
+/*structure of site*/
+.mid{width: 100%; margin: 0 auto;}
+.header{padding:50px 20px ;
+	background:
+    (rgba(255,255,255,0.2), #101417 100px, transparent 100px) 1.8% -150px no-repeat;
+    background-color: #5d0da1; width: 100%; height:125px;}
+.footer{margin: 20px 0; text-align: center; text-transform: uppercase;}
+
+.gigant {
+    padding: 0 20px 0 20px;
+} 
+#firsttop {
+    display: inline-block;
+    width: 40%;
+    float:left;
+}
+#secondtop {
+    display: inline-block;
+    width: 40%;
+    float:right;
+    vertical-align: middle;
+}
+#secondtop ul{
+    display: inline-block;
+}
+#secondtop ul li {
+    display: inline-block;
+    background-color: none;
+    padding: 15px;
+    color: #ffffff;
+    border-radius:5px;
+    background-size: 10%;
+    -webkit-transition: background-color 0.25s;
+    -moz-transition: background-color 0.25s;
+    -o-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+}
+
+#secondtop ul li:hover,#secondtop ul li:active {
+    background-color: #ffffff;
+    color: #5d0da1;
+    border-radius:5px;
+    background-size: 105%;
+    -webkit-transition: background-color 0.25s;
+    -moz-transition: background-color 0.25s;
+    -o-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+
+}
+
+
+
+
+/*menu*/
+.menu{background: #000000; border: 1px solid #000000;} 
+.menu ul{margin: 0; padding: 0; list-style: none;}
+.menu a{margin: 0 0 0 10px; color: #1683a3;}
+.menu a:hover{color: #fff;}
+.menu ul li {display: inline-block;margin: 5px 50px;}
+.menu ul li a{color: #fff; text-transform: uppercase;}
+
+.fon {background: #fff; border: 1px solid #ccc; border-top: none;
+padding: 40px;}
+.fon .clear {border-bottom: 1px dashed #ccc;}
+.block {width: 440px; float: left; margin: 40px;}
+.block:nth-of-type(even){width: 400px; float: right;}
+.anons {background: #f5f5f5; border: 1px solid #ccc; border-radius: 3px; padding: 20px;}
+.anons:hover{background: #e0eff4; border: 1px  solid #bfd5dd;}
+.anons h3 {font-size: 20px; margin: 20px 0 10px; padding: 0; color: #808080; line-height: 20px;}
+
+.footer span {margin: 0 20px;}
+
+.clear{clear: both;}
+
+/*design*/
+@media screen and (max-width: 100%){
+    .mid{width: 100%;}
+    .afisha h3{font-size: 22px;}
+    .block {width: 30%;}
+    .anons h3 {font-size: 18px;}
+
+}
+
+@media screen and (max-width: 100%){
+	.header{text-align: center; background-position: center -150px;}   
+	.topmenu{float: none;}
+	.block {width: auto; margin-bottom: 40px;}
+	.footer span {margin: 10px 0; display: block;}
+
+}
+.oil-media {
+    text-align: center;
+}
